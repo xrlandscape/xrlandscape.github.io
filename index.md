@@ -1,4 +1,9 @@
-# What is Extended Reality (XR)
+---
+title: Extended Reality Landscape
+---
+
+
+# What is eXtended Reality (XR)
 
 Extended reality, abbreviated to XR, is an umbrealla term that describes all types of human
 This includes Virtual Reality (VR), Augumented Reality (AR), Mixed Reality (MR).
