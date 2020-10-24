@@ -13,8 +13,7 @@ This includes Virtual Reality (VR), Augumented Reality (AR), Mixed Reality (MR).
 
 The aim of this website is to create a global map of all activity in the XR space. This includes but is not limited to commercial/academic projects, 
 
-# Map
-<iframe src="https://www.google.com/maps/d/embed?mid=1cFvqE3qUfFbkV7sXtYuUboorTiFjarOg" width="640" height="480"></iframe>
+
 
 # Contact
 
