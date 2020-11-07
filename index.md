@@ -4,14 +4,17 @@ title: Extended Reality Landscape
 
 # Extended Reality
 
-## Augmented Reality
+# Augmented Reality
 
-## Virtual Reality
+# Virtual Reality
 
-## Mixed Reality
+# Mixed Reality
 
 # What is the XR Landscape?
-The aim of this website is to create a global map of all activity in the Extended Reality Landscape. This includes but is not limited to production studios, software and hardware providers, and commercial and academic projects. The ambition is that the XR Landscape will serve the community as a global directory to connect business, customers as well as foster collaborations. If your company is missing from the XR Landscape let us know or if you would like to contribute directly, please get in touch.
+The aim of this website is to create a global map of all activity in the Extended Reality Landscape. This includes but is not limited to production studios, software and hardware providers, and commercial and academic projects. The ambition is that the XR Landscape will serve the community as a global directory to connect business, customers as well as foster collaborations. If your company is missing from the XR Landscape let us know or if you would like to contribute directly, [please get in touch](mailto:hello@extendedrealitylandscape.com).
 
 # Contact
 [Contact Us](mailto:hello@extendedrealitylandscape.com)
+[Facebook Page](https://www.facebook.com/xrlandscape)
+[Facebook Group](https://www.facebook.com/groups/xrlandscape)
+
