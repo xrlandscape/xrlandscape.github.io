@@ -3,38 +3,50 @@
     action="https://formsubmit.co/633f9512c62cdcd8f285ae1321cfb08c"
     method="POST">
      
+    <!-- Google Captcha-->
     <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
 
+    <!-- Google Captcha-->
     <input      type="text" name="_name"
+                style="width:100%"
                 placeholder="First and Last (Required)"
-                required="">
-                
+                required=""
+                >
+    <br>
+
+    <!-- Google Captcha-->
     <input      type="email" name="_email"
+                style="width:100%"
                 placeholder="email@domain.com (Required)"
                 required="" >
     <br>
 
     <textarea   name="_message"
                 placeholder="Message"
+                style="width:100%"
                 rows=5
                 style="resize: none;"/></textarea>
-        
+    <br>
+
     <!-- Google Captcha-->
     <div style="text-align: center;" >
         <div class="g-recaptcha" style="display: inline-block;" data-sitekey="6Lf6r-cZAAAAAA8XJ9H8nUZ2MN5XfwbS6JhE2pQD" data-callback="enableBtn"></div>
     </div>
-    
+    <br>
+
     <!-- Submit button -->
-    <button     type="submit"
-                id="sendBtn"
-                class="">Send</button>
+    <button     type="submit" id="sendBtn"
+                style="width:100%;"
+                class="form-send-disabled"
+                disabled="disabled">Send</button>
     
 </form>
 
+<!-- Javascript to enable send button once recaptcha has been solved -->
 <script>
  function enableBtn(){
     document.getElementById("sendBtn").disabled = false;
-    document.getElementById("sendBtn").classList.remove('w3-pale-green');
-    document.getElementById("sendBtn").classList.add('w3-green');
+    document.getElementById("sendBtn").classList.remove('form-send-disabled');
+    document.getElementById("sendBtn").classList.add('form-send-enabled');
  }
  </script>

@@ -14,3 +14,14 @@ body {
     color: grey;
 
 }
+
+
+.form-send-enabled
+{
+    color:#fff!important;background-color:#4CAF50!important
+}
+
+.form-send-disabled
+{
+    color:#000!important;background-color:#ddffdd!important
+}
