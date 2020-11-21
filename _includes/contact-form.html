@@ -3,10 +3,10 @@
     action="https://formsubmit.co/633f9512c62cdcd8f285ae1321cfb08c"
     method="POST">
      
-    <!-- Google Captcha-->
+    <!-- redirect page-->
     <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
 
-    <!-- Google Captcha-->
+    <!-- Name field-->
     <input      type="text" name="_name"
                 style="width:100%"
                 placeholder="First and Last (Required)"
@@ -14,13 +14,14 @@
                 >
     <br>
 
-    <!-- Google Captcha-->
+    <!-- email field-->
     <input      type="email" name="_email"
                 style="width:100%"
                 placeholder="email@domain.com (Required)"
                 required="" >
     <br>
 
+    <!-- message field -->
     <textarea   name="_message"
                 placeholder="Message"
                 style="width:100%"
@@ -29,6 +30,7 @@
     <br>
 
     <!-- Google Captcha-->
+    <input type="hidden" name="_captcha" value="false">
     <div style="text-align: center;" >
         <div class="g-recaptcha" style="display: inline-block;" data-sitekey="6Lf6r-cZAAAAAA8XJ9H8nUZ2MN5XfwbS6JhE2pQD" data-callback="enableBtn"></div>
     </div>
