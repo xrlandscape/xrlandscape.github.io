@@ -20,13 +20,21 @@
                 style="resize: none;"/></textarea>
         
     <!-- Google Captcha-->
-    <div class="g-recaptcha" style="text-align: center; width:100%;" >
-        <div style="display: inline-block;" data-sitekey="6Lf6r-cZAAAAAA8XJ9H8nUZ2MN5XfwbS6JhE2pQD" data-callback="enableBtn"></div>
+    <div style="text-align: center;" >
+        <div class="g-recaptcha" style="display: inline-block;" data-sitekey="6Lf6r-cZAAAAAA8XJ9H8nUZ2MN5XfwbS6JhE2pQD" data-callback="enableBtn"></div>
     </div>
     
     <!-- Submit button -->
     <button     type="submit"
                 id="sendBtn"
-                class="w3-col s12 w3-padding w3-pale-green">Send</button>
+                class="">Send</button>
     
 </form>
+
+<script>
+ function enableBtn(){
+    document.getElementById("sendBtn").disabled = false;
+    document.getElementById("sendBtn").classList.remove('w3-pale-green');
+    document.getElementById("sendBtn").classList.add('w3-green');
+ }
+ </script>
