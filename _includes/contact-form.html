@@ -2,7 +2,10 @@
 <form
     action="https://formsubmit.co/633f9512c62cdcd8f285ae1321cfb08c"
     method="POST">
-     
+    
+    <!-- redirect-->
+    <input type="hidden" name="_next" value="{{ site.url }}" />
+
     <!-- name field-->
     <input      type="text" name="_name"
                 style="width:100%"
@@ -34,7 +37,8 @@
     <br>
 
     <!-- Submit button -->
-    <button     type="submit" id="sendBtn"
+    <button     type="submit"
+                id="sendBtn"
                 style="width:100%;"
                 class="form-send-disabled"
                 disabled="disabled">Send</button>
