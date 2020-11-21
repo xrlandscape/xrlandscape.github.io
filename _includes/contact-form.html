@@ -3,13 +3,10 @@
     action="https://formsubmit.co/633f9512c62cdcd8f285ae1321cfb08c"
     method="POST">
      
-    <!-- redirect page-->
-    <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
-
-    <!-- Name field-->
+    <!-- name field-->
     <input      type="text" name="_name"
                 style="width:100%"
-                placeholder="First and Last (Required)"
+                placeholder="Name"
                 required=""
                 >
     <br>
@@ -17,16 +14,16 @@
     <!-- email field-->
     <input      type="email" name="_email"
                 style="width:100%"
-                placeholder="email@domain.com (Required)"
+                placeholder="Email Address"
                 required="" >
     <br>
 
     <!-- message field -->
     <textarea   name="_message"
                 placeholder="Message"
-                style="width:100%"
-                rows=3
-                style="resize: none;"/></textarea>
+                style="width:100%; resize: none;"
+                rows=4
+                required=""/></textarea>
     <br>
 
     <!-- Google Captcha-->

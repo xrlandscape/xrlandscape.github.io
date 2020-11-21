@@ -4,12 +4,12 @@
     {% include head.html %}
     
     <body>
-        <!-- navbar-->
+    
         {% include nav.html %}
-        <div class="container" style="height:50px;"></div>
+        {% include header.html%}
 
         <!--Main container-->
-        <main class="container ">
+        <main class="container">
             {{ content | smartify }}
         </main>
         <!-- /.container -->
@@ -19,3 +19,4 @@
     
     </body>
 </html>
+
