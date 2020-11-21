@@ -1,0 +1,46 @@
+
+- name: "4D Views"
+  url: "https://www.4dviews.com/"
+  location: "45.18522866543611, 5.7055715651922325"
+  info: "Dynamic volumetric capture brings content to VR and AR applications."
+
+- name: "8i"
+  url: "https://8i.com/"
+  location: "-41.29453035545278, 174.77377024595594"
+  info: "8i is a virtual reality software company focusing on volumetric human capture."
+
+- name: "Dimension Studio"
+  url: "https://dimensionstudio.co/"
+  location: "51.433252426045904, -0.18935640212587967"
+  info: "Dimension provides revolutionary volumetric production studios for the creation of next generation digital humans, XR content and virtual production."
+ 
+- name: "HoloCap"
+  url: "https://holocap.com/"
+  location: "59.921163582740064, 10.747501966476518"
+  info: "HoloCap hologram capture volumetric video depth camera unity vive oculus virtual reality VR AR MR avatar mixed reality cool Unity3D VR AR."
+
+- name: "Intel Studios"
+  url: "https://newsroom.intel.com/press-kits/intel-studios/#gs.m2fx1n"
+  location: "33.89815142203123, -118.38349142327331"
+  info: "Intel® Studios is reimagining the future of content creation with next-gen filmmaking technologies. "
+
+- name: "MARS Studios"
+  url: "https://marsstudios.one/"
+  location: "51.53048526203996, -0.076384289765704"
+  info: "MARS is the new state-of-the art xR and Virtual Production Studio, based in London."
+
+- name: "Metastage"
+  url: "https://metastage.com/"
+  location: "34.29248912192272, -118.4145525733483"
+  info: "Metastage creates fully 3D performance captures that can be easily implemented into game engines and distributed across platforms."
+
+- name: "Volograms"
+  url: "https://volograms.com/"
+  location: "53.341728882967786, -6.283780569310037"
+  info: "Bring your immersive storytelling to the next level by capturing real people and turning them into volumetric holograms for all kinds of AR/VR experiences, and social media."
+
+- name: "Volucap"
+  url: "https://volucap.de/"
+  location: "52.38849298210887, 13.121311915340502"
+  info: "This is the beginning of a new age. When content leaves the screen and digital humans become reality, the discovery of the infinite cosmos “virtual reality” is coming to the next level."
+
