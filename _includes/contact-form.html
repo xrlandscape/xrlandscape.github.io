@@ -1,0 +1,32 @@
+
+<form
+    action="https://formsubmit.co/hello@extendedrealitylandscape.com"
+    method="POST">
+     
+    <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
+
+    <input      type="text" name="_name"
+                placeholder="First and Last (Required)"
+                required="">
+                
+    <input      type="email" name="_email"
+                placeholder="email@domain.com (Required)"
+                required="" >
+    <br>
+
+    <textarea   name="_message"
+                placeholder="Message"
+                rows=5
+                style="resize: none;"/></textarea>
+        
+    <!-- Google Captcha-->
+    <input type="hidden" name="_captcha" value="false">
+    <div style="text-align: center; width:100%;" >
+        <div style="display: inline-block;" data-sitekey="6LdXNuMZAAAAABsGxd_4na66ONt6D2UgxN8pmDwa" data-callback="enableBtn"></div>
+    </div>
+    
+    <button     type="submit"
+                id="sendBtn"
+                class="w3-col s12 w3-padding w3-pale-green">Send</button>
+    
+</form>

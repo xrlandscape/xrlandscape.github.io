@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+    {% include head.html %}
+    
+    <body>
+    
+        {% include nav.html %}
+        {% include header.html%}
+
+        <!--Main container-->
+        <main class="container">
+            {{ content | smartify }}
+        </main>
+        <!-- /.container -->
+
+        {% include contact.html %}
+        {% include footer.html %}
+    
+    </body>
+</html>
