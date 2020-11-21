@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Map
+title: XR Map
 ---
 
-
+<h1 style="text-align:center;"> XR Map </h1>
 
 <div id="map" style="width: 100%; height: 500px;"></div>
 <script>
