@@ -25,19 +25,19 @@
                 placeholder="Message"
                 style="width:100%; resize: none;"
                 rows=4
-                required=""/></textarea>
+                required=""></textarea>
     <br>
 
     <!-- Google Captcha-->
     <input type="hidden" name="_captcha" value="false">
     <div style="text-align: center;" >
-        <div class="g-recaptcha" style="display: inline-block;" data-sitekey="6Lf6r-cZAAAAAA8XJ9H8nUZ2MN5XfwbS6JhE2pQD" data-callback="enableBtn"></div>
+        <div class="g-recaptcha" style="display: inline-block;" data-sitekey="6Lf6r-cZAAAAAA8XJ9H8nUZ2MN5XfwbS6JhE2pQD" data-callback="enableBtnContact"></div>
     </div>
     <br>
 
     <!-- Submit button -->
     <button     type="submit"
-                id="sendBtn"
+                id="sendBtnContact"
                 style="width:100%;"
                 class="form-send-disabled"
                 disabled="disabled">Send</button>
@@ -46,9 +46,9 @@
 
 <!-- Javascript to enable send button once recaptcha has been solved -->
 <script>
- function enableBtn(){
-    document.getElementById("sendBtn").disabled = false;
-    document.getElementById("sendBtn").classList.remove('form-send-disabled');
-    document.getElementById("sendBtn").classList.add('form-send-enabled');
+ function enableBtnContact(){
+    document.getElementById("sendBtnContact").disabled = false;
+    document.getElementById("sendBtnContact").classList.remove('form-send-disabled');
+    document.getElementById("sendBtnContact").classList.add('form-send-enabled');
  }
  </script>

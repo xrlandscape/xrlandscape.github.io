@@ -8,7 +8,12 @@
   url: "https://8i.com/"
   location: "-41.29453035545278, 174.77377024595594"
   info: "8i is a virtual reality software company focusing on volumetric human capture."
-
+  
+- name: "Digital Nation Entertainment"
+  url: "https://digitalnationent.com/"
+  location: "34.01982930750575, -118.48203571765117"
+  info: "Digital Nation Entertainment is an industry leading immersive content studio combining state of the art AR/VR/MR technologies to create fully immersive content experiences across mobile, desktop and headset platforms."
+ 
 - name: "Dimension Studio"
   url: "https://dimensionstudio.co/"
   location: "51.433252426045904, -0.18935640212587967"
@@ -33,6 +38,27 @@
   url: "https://metastage.com/"
   location: "34.29248912192272, -118.4145525733483"
   info: "Metastage creates fully 3D performance captures that can be easily implemented into game engines and distributed across platforms."
+
+- name: "Microsoft Mixed Reality"
+  url: "https://www.microsoft.com/en-us/mixed-reality/capture-studios"
+  location: "37.78458635260108, -122.39856100811508"
+  info: "At Mixed Reality Capture Studios, we record holographic video—holograms of dynamic people and performances. Your audiences can interact with your holograms in augmented reality, virtual reality, and on 2D screens."
+
+- name: "Omnivor"
+  url: "https://www.omnivor.io/"
+  location: "47.55147740311549, -122.3332205297402"
+  info: "Seeing is believing - Omnivor creates streaming volumetric video for mobile phones, browsers, and headsets that improves ad effectiveness, delivers more compelling content, and transforms content marketing materials."
+
+- name: "Sony Innovation Studios"
+  url: "https://sites.sonypictures.com/sonyinnovationstudios/site/"
+  location: "34.017222, -118.401667"
+  info: "Sony Innovation Studios -- fueling new entertainment experiences through the power of creativity and technology."
+  
+- name: "Underminer Studios"
+  url: "https://underminerstudios.com/"
+  location: "30.26701503721313, -97.74240572143044"
+  info: "Creating tools for businesses from ideation to development using Augmented Reality, Virtual Reality, Volumetric Video."
+  
 
 - name: "Volograms"
   url: "https://volograms.com/"
